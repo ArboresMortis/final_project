@@ -3,8 +3,46 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+      }
+  .table, td, th {
+    border: 1px solid black;
+    }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  </style>
 </head>
 <body>
-  <a href="Home.html">"Link to my home page."</a>
+  <div class="dropdown">
+    <span>Menu</span>
+    <div class="dropdown-content">
+      <p><a href="Home.html">Link to my home page.</a></p>
+      <p><a href="Bio.html">Link to my Bio page.</a></p>
+      <p><a href="prototype_game.html">Link to my work in progress game.</a></p>
+    </div>
+  </div>
+
 </body>
 </html>
