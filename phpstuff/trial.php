@@ -7,7 +7,7 @@
 <?php
 echo "Hello World!";
 ?>
-// Var starts with $, put "" around plaintext, no need to declare various
+// Var starts with $, put "" around plaintext, no need to declare variables
 // keywords are case insensitive
 // echo is like p, no return value, print is the same with return val 1
 // . to concatenate strings
