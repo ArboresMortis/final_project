@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    h6 {margin-left: 40px; margin-right: 20px;}
+    h5 {margin-left: 35px; margin-right: 20px;}
+    h4 {margin-left: 30px; margin-right: 20px;}
+    h3 {margin-left: 25px; margin-right: 20px;}
+    h2 {margin-left: 20px; margin-right: 20px;}
+    h1 {margin-left: 15px; margin-right: 20px;}
+    p {margin-left: 45px; margin-right: 20px;}
+    img {max-height: 150px; max-width: 200px; width: auto; height: 125px; border-style: inset; margin-left: 30px; margin-top: 20px;}
+    html{height: 100%;}
+    body {background-color: White; height: 100%; margin: 0; background-attachment: fixed; background-image: linear-gradient(to bottom right, #00000030 23%, #80808030 27%, #80808030 48%, #FFFFFF30 52%, #FFFFFF30 73%, #8000D330 77%);}
+    body {background-color: White; height: 100%; margin: 0; background-attachment: fixed; background-image: linear-gradient(to bottom right, AliceBlue, LightSkyBlue);}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-faded">
+    <a class="navbar-brand" href="#">Art</a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Bio.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fight.html">Hot Takes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fangirling.html">Fangirling</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Art.html">Art</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="loop/recurs.html">Recursive</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="loop/loop.html">Loop</a>
+        </li>
+      </ul>
+  </nav>
